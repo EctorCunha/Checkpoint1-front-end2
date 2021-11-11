@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Tesla</title>
+</head>
+<body>
+
+  <main class="flex">
+    <h1>Formulário do Tesla</h1>
+
+    <form class="flex">
+      <input type="text" name="titulo" id="titulo" placeholder=" Título">
+      <input type="text" name="descricao" id="descricao" placeholder=" Descrição">
+      <input type="text" name="url" id="url" placeholder=" URL da imagem">
+
+      <div>
+        <label for="modelos">Modelos:</label>
+        <input type="radio" name="carro" value="sedan" >sedan</input>
+        <input type="radio" name="carro" value="suv" >suv</input>
+        <input type="radio" name="carro" value="hacthback" checked>hacthback</input>
+      </div>
+      
+      <div>
+        <input type="checkbox" id="condicoes" checked> Li e aceito as condições</input>
+      </div>
+      
+      <button type="submit" id="btn">Confirmar</button>
+    </form>
+
+    <h1>Resultado</h1>
+
+    <ul></ul>
+    
+  </main>
+
+  <script src="./js/script.js"></script>  
+</body>
+</html>
